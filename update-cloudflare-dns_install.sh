@@ -5,19 +5,19 @@
 # ==========================================
 
 # URL "Raw" do script no GitHub
-URL_GITHUB="https://raw.githubusercontent.com/usuario/repositorio/main/seu_script.sh"
+URL_GITHUB="https://raw.githubusercontent.com/rsecbr/repo/main/update-cloudflare-dns.sh"
 
 # Diretório onde o script será salvo (certifique-se de ter permissão de escrita)
-DIRETORIO_DESTINO="$HOME/scripts"
+DIRETORIO_DESTINO="/app"
 
 # Nome que o arquivo terá após o download
-NOME_DO_ARQUIVO="script_baixado.sh"
+NOME_DO_ARQUIVO="update-cloudflare-dns.sh"
 
 # Caminho completo do arquivo
 CAMINHO_COMPLETO="$DIRETORIO_DESTINO/$NOME_DO_ARQUIVO"
 
 # Expressão do cron (Exemplo: "0 2 * * *" para rodar todos os dias às 2h da manhã)
-AGENDAMENTO_CRON="0 2 * * *" 
+AGENDAMENTO_CRON="0/5 * * * *" 
 
 # ==========================================
 # Execução
