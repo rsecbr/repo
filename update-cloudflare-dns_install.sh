@@ -17,7 +17,7 @@ NOME_DO_ARQUIVO="update-cloudflare-dns.sh"
 CAMINHO_COMPLETO="$DIRETORIO_DESTINO/$NOME_DO_ARQUIVO"
 
 # Expressão do cron (Exemplo: "0 2 * * *" para rodar todos os dias às 2h da manhã)
-AGENDAMENTO_CRON="0/5 * * * *" 
+AGENDAMENTO_CRON="*/5 * * * *" 
 
 # ==========================================
 # Execução
